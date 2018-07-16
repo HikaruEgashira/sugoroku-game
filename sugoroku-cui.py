@@ -19,8 +19,6 @@ if mode == 's':
         print('誤った入力です')
 if game == True:
     print('Game Start!!')
-    print(game)
-    print(n)
 while game == True:
     turn = input('\'w\'でサイコロを振ります: ')
     if turn == 'w':
