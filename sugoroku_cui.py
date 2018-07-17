@@ -51,7 +51,7 @@ while flag == True:
                         print(tt)
                         print(f'{_pt[int(tt[_list])]}ポイント手に入れた!')
                         player_pt[_list] += int(tt[_list])
-                        print(f'{player}P : {player_pt[_list]}Pt')
+                        print(f'{_list}P : {player_pt[_list]}Pt')
                     else:
                         print('奇数なので減点')
                         total[_list] -= dice
