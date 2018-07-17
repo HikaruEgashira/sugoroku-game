@@ -73,6 +73,8 @@ while flag == True:
                             flag = True
                 else:
                     print(f'あと{masu - total[_list]}')
+        else:
+            player_pt[_list] += int(_pt[masu])
     turn_num[0] += 1
 print(f'ターン数：{turn_num[0]}')
 # clear_turn[0] = np.argmax(clear_turn) + 1
